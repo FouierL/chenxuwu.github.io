@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Wu Chenxu (Hawthorn)"
-description              : #
+title                    : "Chenxu Wu (Hawthorn)"
+description              : "A learner in diffusion models"
 repository               : "FouierL/wuchenxu.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,9 +21,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Wu Chenxu (Hawthorn)"
+  name             : "Chenxu Wu (Hawthorn)"
   avatar           : "images/android-chrome-192x192.png"
-  bio              : "A learner in diffusion models"
+  bio              : "learning"
   location         : "China"
   employer         :
   pubmed           : 
