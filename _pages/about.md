@@ -28,8 +28,9 @@ If you are interested in my work or would like to collaborate, please feel free 
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
 - *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
+- *2024.04*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
 - *2024.06*: &nbsp;🎉🎉 I join the Siemens in Shanghai China as an intern😊.
-- *2024.02*: &nbsp;🎉🎉 I join the MIRACLE lab as a master student😊. 
+- *2024.02*: &nbsp;🎉🎉 I join the MIRACLE lab as a master student😊.
 
 # 📝 Publications 
 
@@ -45,11 +46,18 @@ If you are interested in my work or would like to collaborate, please feel free 
 </div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.10* USTC Graduate First-class Scholarship.
+- *2024.06* XJTU Outstanding Graduate Student Award.
+- *2024.06* XJTU Alumni Affinity Ambassador.
+- *2023.09* XJTU First-class Scholarship.
+- *2023.09* XJTU Outstanding Students.
+- *2022.09* XJTU First-class Scholarship.
+- *2022.09* XJTU Outstanding Students.
+- *2021.09* XJTU First-class Scholarship.
+- *2021.09* XJTU Outstanding Students.
 
 # 📖 Educations
-- *2024.09 - now*, M.S, University of Science and Technology of China, Anhui, China. 
+- *2024.09 - 2025.02 (now)*, M.S, University of Science and Technology of China, Anhui, China. 
 - *2020.09 - 2024.06*, B.E., Xi'an Jiaotong University, Shannxi, China.
 
 # 💻 Internships
