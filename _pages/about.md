@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my first year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://sz.ustc.edu.cn/en/en_research_show/42.html) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens** and **Huawei**, gaining valuable industry experience.
+Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my first year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens** and **Huawei**, gaining valuable industry experience.
 
 My research interests lie in the **application technologies of diffusion models**, including image generation and diffusion posterior sampling. I am passionate about exploring the potential of these methods in various domains.
 
@@ -28,8 +28,8 @@ If you are interested in my work or would like to collaborate, please feel free 
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
 - *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
-- *2024.04*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
-- *2024.06*: &nbsp;🎉🎉 I join the Siemens in Shanghai China as an intern😊.
+- *2024.06*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
+- *2024.05*: &nbsp;🎉🎉 I join the Siemens in Shanghai China as an intern😊.
 - *2024.02*: &nbsp;🎉🎉 I join the MIRACLE lab as a master student😊.
 
 # 📝 Publications 
