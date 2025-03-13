@@ -44,6 +44,9 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 - We present *Di-Fusion*, an self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025wxm.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -53,6 +56,9 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 
 - AA-CLIP enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability.
 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIA submission</div><img src='images/MIA2025fht.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -61,6 +67,7 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
 
 - We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
+
 </div>
 </div>
 
