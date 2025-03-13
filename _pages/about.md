@@ -25,6 +25,7 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 
 # 🔥 News
+- *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
 - *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
@@ -39,9 +40,27 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 [Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement](https://arxiv.org/abs/2501.13514) <span style="color:palevioletred;"> 
 
-**Chenxu Wu**, Qingpeng Kong, Zihang Jiang and S. Kevin Zhou
+**Chenxu Wu**, Qingpeng Kong, Zihang Jiang & S. Kevin Zhou
 
 - We present *Di-Fusion*, an self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025wxm.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP](https://arxiv.org/abs/2503.06661) <span style="color:palevioletred;"> 
+
+Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Yan, Zihang Jiang & S.Kevin Zhou
+
+- AA-CLIP enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">MIA submission</div><img src='images/MIA2025fht.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347) <span style="color:palevioletred;"> 
+
+Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
+
+- We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
 </div>
 </div>
 
