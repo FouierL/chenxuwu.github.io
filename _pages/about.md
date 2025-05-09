@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my first year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens** and **Huawei**, gaining valuable industry experience.
+Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my **first** year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens**, gaining valuable industry experience.
 
 My research interests lie in the **application technologies of diffusion models**, including image generation and diffusion posterior sampling. I am passionate about exploring the potential of these methods in various domains.
 
@@ -88,3 +88,9 @@ Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zho
 
 # 💻 Internships
 - *2024.06 - 2024.09*, Siemens, China.
+
+# 📮 Other information
+- *mail*📧 wuchenxu@mail.ustc.edu.cn, wuchenxu02@gmail.com
+- *phone*📱 +86-18092338200
+- *wechat*💬 wcx18092338200
+- *QQ*🐧 727004430
