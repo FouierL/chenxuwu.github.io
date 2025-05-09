@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Chenxu Wu (Hawthorn)"
+title                    : "Chenxu Wu"
 description              : "A learner in diffusion models"
 repository               : "FouierL/wuchenxu.github.io"
 google_scholar_stats_use_cdn : true
