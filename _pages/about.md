@@ -25,7 +25,6 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 
 # 🔥 News
-- *2025.06*: &nbsp;🎉🎉 I join the miHoYo in Shanghai China as a research intern😊.
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
 - *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
