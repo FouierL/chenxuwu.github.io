@@ -25,6 +25,8 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 I join the miHoYo in Shanghai China as a research intern😊.
+- *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
 - *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
@@ -71,6 +73,18 @@ Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zho
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/zhangxuACL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A General Knowledge Injection Framework for ICD Coding](https://arxiv.org/abs/2505.18708) <span style="color:palevioletred;"> 
+
+Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Kevin Zhou
+
+- We propose a novel, general knowledge injection framework that integrates three key types of knowledge, namely ICD Description, ICD Synonym, and ICD Hierarchy, without specialized design of additional modules.
+
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2024.10* USTC Graduate First-class Scholarship.
 - *2024.06* XJTU Outstanding Graduate Student Award.
@@ -83,11 +97,12 @@ Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zho
 - *2021.09* XJTU Outstanding Students.
 
 # 📖 Educations
-- *2024.09 - 2025.02 (now)*, M.S, University of Science and Technology of China, Anhui, China. 
+- *2024.09 - (now)*, M.S, University of Science and Technology of China, Anhui, China. 
 - *2020.09 - 2024.06*, B.E., Xi'an Jiaotong University, Shannxi, China.
 
 # 💻 Internships
 - *2024.06 - 2024.09*, Siemens, China.
+- *2025.06 - now*, miHoYo, China.
 
 # 📮 Other information
 - *mail*📧 wuchenxu@mail.ustc.edu.cn, wuchenxu02@gmail.com
