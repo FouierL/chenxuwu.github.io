@@ -17,14 +17,16 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my **first** year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens**, gaining valuable industry experience.
+Hello, I am Chenxu Wu (chinese name: 伍晨旭), a student at the University of Science and Technology of China (**USTC**), currently in my **second** year at the **MIRACLE Lab** under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I have previously interned at **Siemens**（西门子） and **miHoYo**（米哈游）, gaining valuable industry experience.
 
-My research interests lie in the **application technologies of diffusion models**, including image generation and diffusion posterior sampling. I am passionate about exploring the potential of these methods in various domains.
+My research interests lie in the **application technologies of diffusion models**, such as data generation. I am passionate about exploring the potential of these methods in various domains.
 
 If you are interested in my work or would like to collaborate, please feel free to reach out to me via email at **wuchenxu [at] mail [dot] ustc [dot] edu [dot] cn**. Looking forward to connecting with you!
 
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 The miHoYo internship has ended; a wonderful time🥹.
+- *2025.06*: &nbsp;🎉🎉 Start my internship at miHoYo.
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
 - *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
 - *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
@@ -101,7 +103,7 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 
 # 💻 Internships
 - *2024.06 - 2024.09*, Siemens, China.
-- *2025.06 - now*, miHoYo, China.
+- *2025.06 - 2025.09*, miHoYo, China.
 
 # 📮 Other information
 - *mail*📧 wuchenxu@mail.ustc.edu.cn, wuchenxu02@gmail.com
