@@ -29,7 +29,7 @@ If you are interested in my work or would like to collaborate, please feel free 
 - *2025.06*: &nbsp;🎉🎉 Start my internship at miHoYo.
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
 - *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
-- *2025.01*: &nbsp;🎉🎉 My first paper (both first paper and first author paper) is accepted by ICLR 2025🥹.
+- *2025.01*: &nbsp;🎉🎉 My first paper is accepted by ICLR 2025🥹.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
 - *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
 - *2024.06*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
