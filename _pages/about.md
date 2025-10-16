@@ -86,6 +86,18 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='images/zhangxuACL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models]([https://arxiv.org/abs/2505.18708](https://arxiv.org/abs/2509.25373)) <span style="color:palevioletred;"> 
+
+Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ...
+
+- This survey aims to provide a clear, structured perspective for understanding the intrinsic limitations of current MLLMs and to illuminate the path toward building next-generation models capable of deep reasoning and a genuine understanding of the world.
+
+</div>
+</div>
+
 # 🎖 Honors and Awards
 - *2024.10* USTC Graduate First-class Scholarship.
 - *2024.06* XJTU Outstanding Graduate Student Award.
