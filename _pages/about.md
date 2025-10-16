@@ -86,7 +86,7 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='images/zhangxuACL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='Ma(Survey).jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models]([https://arxiv.org/abs/2505.18708](https://arxiv.org/abs/2509.25373)) <span style="color:palevioletred;"> 
