@@ -53,7 +53,7 @@ If you are interested in my work or would like to collaborate, please feel free 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/main_pic.pdf' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965) <span style="color:palevioletred;"> 
