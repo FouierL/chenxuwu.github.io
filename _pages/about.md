@@ -25,11 +25,14 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 
 # 🔥 News
+- *2025.11*: &nbsp;🎉🎉 One paper is accepted by WACV 2026.
+- *2024.10*: &nbsp;🎉🎉 I receive National Scholarship.
 - *2025.09*: &nbsp;🎉🎉 The miHoYo internship has ended; a wonderful time🥹.
 - *2025.06*: &nbsp;🎉🎉 Start my internship at miHoYo.
+- *2025.05*: &nbsp;🎉🎉 One paper is accepted by Medical Image Analysis.
 - *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
 - *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
-- *2025.01*: &nbsp;🎉🎉 My first paper is accepted by ICLR 2025🥹.
+- *2025.01*: &nbsp;🎉🎉 My first paper is accepted by ICLR 2025.
 - *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
 - *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
 - *2024.06*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
@@ -46,6 +49,18 @@ If you are interested in my work or would like to collaborate, please feel free 
 **Chenxu Wu**, Qingpeng Kong, Zihang Jiang & S. Kevin Zhou
 
 - We present *Di-Fusion*, an self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965) <span style="color:palevioletred;"> 
+
+**Chenxu Wu**, Qingpeng Kong, Peiang Zhao, Wendi Yang, Wenxin Ma, Fenghe Tang ,Zihang Jiang & S.Kevin Zhou
+
+- We introduce *EquS*, a diffusion model-based image restoration method that imposes equivariant information through dual sampling trajectories.
 
 </div>
 </div>
@@ -99,6 +114,7 @@ Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ..
 </div>
 
 # 🎖 Honors and Awards
+- *2025.10* National Scholarship.
 - *2024.10* USTC Graduate First-class Scholarship.
 - *2024.06* XJTU Outstanding Graduate Student Award.
 - *2024.06* XJTU Alumni Affinity Ambassador.
