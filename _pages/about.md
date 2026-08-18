@@ -55,18 +55,6 @@ Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor: data fl
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2027 Under Review</div></div></div>
-<div class='paper-box-text' markdown="1">
-
-0-CLIP: Training-free Anomaly Detection Hidden in CLIP's Projection <span style="color:palevioletred;"> 
-
-**Chenxu Wu**, ..., Zihang Jiang & S. Kevin Zhou
-
-- We directly parse discriminative weights from CLIP's projection layer to replace various adapters, achieving *training-free* zero-shot anomaly detection.
-
-</div>
-</div>
-
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
