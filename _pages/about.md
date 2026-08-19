@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hello, I am Chenxu Wu (chinese name: 伍晨旭), a master student at the University of Science and Technology of China (**USTC**) at the **MIRACLE Lab**, under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I am currently interning on **GUI Agent** at **Tencent Hunyuan**, where I was selected for the **QingYun Plan（青云计划）**. I have also interned at **Tencent**（WXG）, **miHoYo**（米哈游） and **Siemens**（西门子）, gaining valuable industry experience.
+Hello, I am Chenxu Wu (chinese name: 伍晨旭), a master student at the University of Science and Technology of China (**USTC**) at the **MIRACLE Lab**, under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I am currently interning on **GUI Agent** at **Tencent Hunyuan** (TEG, Foundation Model Dept.), where I was selected for the **QingYun Plan（青云计划）**. I have also interned at **Tencent**（WXG）, **miHoYo**（米哈游） and **Siemens**（西门子）, gaining valuable industry experience.
 
 My research interests span **GUI Agents** and **multimodal generation**. I am passionate about exploring the potential of these methods in various domains.
 
@@ -26,7 +26,7 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 UI-Mate, our open-weight foundation GUI Agent tech report, is released (OSWorld-Verified 77.0%).
-- *2026.01*: &nbsp;🎉🎉 I join Tencent Hunyuan as an intern on GUI Agent, and I am selected for the QingYun Plan（青云计划）.
+- *2026.01*: &nbsp;🎉🎉 I join Tencent Hunyuan (TEG, Foundation Model Dept.) as an intern on GUI Agent, and I am selected for the QingYun Plan（青云计划）.
 - *2025.11*: &nbsp;🎉🎉 One paper is accepted by WACV 2026.
 - *2025.10*: &nbsp;🎉🎉 The miHoYo internship has ended; I join Tencent (WXG) as an intern.
 - *2025.10*: &nbsp;🎉🎉 I receive the Graduate National Scholarship.
@@ -168,7 +168,7 @@ Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ..
 - *2020.09 - 2024.06*, B.E., Xi'an Jiaotong University, Shannxi, China.
 
 # 💻 Internships
-- *2026.01 - now*, Tencent Hunyuan, Shenzhen, China.
+- *2026.01 - now*, Tencent Hunyuan (TEG, Foundation Model Dept.), Shenzhen, China.
 - *2025.10 - 2026.01*, Tencent (WXG, Technical Architecture Dept.), Shenzhen, China.
 - *2025.06 - 2025.10*, miHoYo, Shanghai, China.
 - *2024.05 - 2024.09*, Siemens, Shanghai, China.
