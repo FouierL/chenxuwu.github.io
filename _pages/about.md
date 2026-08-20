@@ -48,7 +48,7 @@ If you are interested in my work or would like to collaborate, please feel free 
 
 [UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930) \| [Project Page](https://ui-mate.github.io/) <span style="color:palevioletred;"> 
 
-Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor: data flywheel / model evaluation)
+Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 
 - An open-weight foundation *GUI Agent* built with an environment-grounded data flywheel and in-context demonstration learning; it reaches **77.0%** on OSWorld-Verified.
 
