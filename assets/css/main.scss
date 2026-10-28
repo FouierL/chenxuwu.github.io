@@ -107,3 +107,27 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.visitor-map {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    height: 210px;
+    margin: 2rem auto;
+
+    &__canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 420px;
+        height: 210px;
+        transform-origin: top left;
+    }
+
+    // The widget adds an extra map-width margin; keep it inside the wrapper.
+    #_wauy1b + span {
+        position: relative;
+        margin-right: 0 !important;
+        vertical-align: top;
+    }
+}

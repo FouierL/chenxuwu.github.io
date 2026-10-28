@@ -1,0 +1,29 @@
+<div id="visitor-map" class="visitor-map" role="region" aria-label="Visitor map">
+  <div class="visitor-map__canvas">
+    <script id="_wauy1b">
+      var _wau = _wau || [];
+      _wau.push(["map", "ffrxh6vbie", "y1b", "420", "210", "dashmap", "diamond-yellow"]);
+    </script>
+    <script async src="https://waust.at/m.js"></script>
+  </div>
+</div>
+<script>
+  (function () {
+    var map = document.getElementById("visitor-map");
+    var canvas = map.querySelector(".visitor-map__canvas");
+
+    // Scale the map and its fixed-coordinate visitor markers together.
+    function resizeMap() {
+      var scale = Math.min(1, map.clientWidth / 420);
+      canvas.style.transform = "scale(" + scale + ")";
+      map.style.height = (210 * scale) + "px";
+    }
+
+    resizeMap();
+    if (window.ResizeObserver) {
+      new ResizeObserver(resizeMap).observe(map);
+    } else {
+      window.addEventListener("resize", resizeMap);
+    }
+  }());
+</script>
