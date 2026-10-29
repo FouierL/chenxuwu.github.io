@@ -3,7 +3,7 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -15,38 +15,154 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<div class="anchor" id="about-me"></div>
 
-Hello, I am Chenxu Wu (chinese name: 伍晨旭), a master student at the University of Science and Technology of China (**USTC**) at the **MIRACLE Lab**, under the guidance of [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/). I am currently interning on **GUI Agent** at **Tencent Hunyuan** (TEG, Foundation Model Dept.), where I was selected for the **QingYun Plan（青云计划）**. I have also interned at **Tencent**（WXG）, **miHoYo**（米哈游） and **Siemens**（西门子）, gaining valuable industry experience.
+<div class="intro" markdown="1">
+<p class="intro-kicker">RESEARCH · BUILD · EXPLORE</p>
+<h1>Chenxu Wu <span>伍晨旭</span></h1>
 
-My research interests span **GUI Agents** and **multimodal generation**. I am passionate about exploring the potential of these methods in various domains.
+I'm a master's student at **USTC's MIRACLE Lab**, advised by [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/).
 
-If you are interested in my work or would like to collaborate, please feel free to reach out to me via email at **wuchenxu [at] mail [dot] ustc [dot] edu [dot] cn**. Looking forward to connecting with you!
+My research focuses on **GUI agents** and **multimodal generation**. I'm currently a GUI Agent intern at **Tencent Hunyuan** (QingYun Plan / 青云计划), with previous internships at Tencent WXG, miHoYo, and Siemens.
 
+<p class="research-tags"><span>GUI Agents</span><span>Multimodal Generation</span></p>
 
-# 🔥 News
-- *2026.08*: &nbsp;🎉🎉 UI-Mate, our open-weight foundation GUI Agent tech report, is released (OSWorld-Verified 77.0%).
-- *2026.01*: &nbsp;🎉🎉 I join Tencent Hunyuan (TEG, Foundation Model Dept.) as an intern on GUI Agent, and I am selected for the QingYun Plan（青云计划）.
-- *2025.11*: &nbsp;🎉🎉 One paper is accepted by WACV 2026.
-- *2025.10*: &nbsp;🎉🎉 The miHoYo internship has ended; I join Tencent (WXG) as an intern.
-- *2025.10*: &nbsp;🎉🎉 I receive the Graduate National Scholarship.
-- *2025.06*: &nbsp;🎉🎉 Start my internship at miHoYo.
-- *2025.05*: &nbsp;🎉🎉 One paper is accepted by Medical Image Analysis.
-- *2025.05*: &nbsp;🎉🎉 One paper is accepted by ACL 2025 Findings.
-- *2025.03*: &nbsp;🎉🎉 One paper is accepted by CVPR 2025.
-- *2025.01*: &nbsp;🎉🎉 My first paper is accepted by ICLR 2025.
-- *2024.09*: &nbsp;🎉🎉 The Siemens internship has ended; a wonderful time🥹.
-- *2024.06*: &nbsp;🎉🎉 I graduated from Xi'an Jiaotong University😄.
-- *2024.06*: &nbsp;🎉🎉 I receive XJTU Outstanding Graduate Student Award.
-- *2024.05*: &nbsp;🎉🎉 I join the Siemens in Shanghai China as an intern😊.
-- *2024.02*: &nbsp;🎉🎉 I join the MIRACLE lab as a master student😊.
+[Get in touch](mailto:wuchenxu@mail.ustc.edu.cn) to discuss research or collaboration.
+</div>
 
-# 📝 Publications 
+## News
+{: #news }
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/uimate.png' alt="sym" width="100%"></div></div>
+<div class="news-timeline">
+  <div class="news-item">
+    <time class="news-date" datetime="2026-10">2026.10</time>
+    <span class="news-icon" aria-hidden="true">📄</span>
+    <div class="news-copy" markdown="1">
+      <p><strong>U-Bench</strong> has been accepted to <strong>NeurIPS 2026</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2026-08">2026.08</time>
+    <span class="news-icon" aria-hidden="true">🚀</span>
+    <div class="news-copy" markdown="1">
+      <p><strong>UI-Mate</strong>, our open-weight GUI Agent report, is out — <strong>77.0%</strong> on OSWorld-Verified.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2026-01">2026.01</time>
+    <span class="news-icon" aria-hidden="true">💼</span>
+    <div class="news-copy" markdown="1">
+      <p>Joined <strong>Tencent Hunyuan</strong> as a GUI Agent intern (<strong>QingYun Plan</strong>).</p>
+    </div>
+  </div>
+</div>
+
+<details class="news-archive">
+<summary>Earlier updates</summary>
+
+<div class="news-timeline">
+  <div class="news-item">
+    <time class="news-date" datetime="2025-11">2025.11</time>
+    <span class="news-icon" aria-hidden="true">📄</span>
+    <div class="news-copy" markdown="1">
+      <p>One paper accepted to <strong>WACV 2026</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-10">2025.10</time>
+    <span class="news-icon" aria-hidden="true">💼</span>
+    <div class="news-copy" markdown="1">
+      <p>Wrapped up my miHoYo internship and joined <strong>Tencent WXG</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-10">2025.10</time>
+    <span class="news-icon" aria-hidden="true">🏆</span>
+    <div class="news-copy" markdown="1">
+      <p>Received the <strong>Graduate National Scholarship</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-06">2025.06</time>
+    <span class="news-icon" aria-hidden="true">🎮</span>
+    <div class="news-copy" markdown="1">
+      <p>Started my internship at <strong>miHoYo</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-05">2025.05</time>
+    <span class="news-icon" aria-hidden="true">🩺</span>
+    <div class="news-copy" markdown="1">
+      <p>One paper accepted to <strong>Medical Image Analysis</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-05">2025.05</time>
+    <span class="news-icon" aria-hidden="true">📝</span>
+    <div class="news-copy" markdown="1">
+      <p>One paper accepted to <strong>ACL 2025 Findings</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-03">2025.03</time>
+    <span class="news-icon" aria-hidden="true">👁️</span>
+    <div class="news-copy" markdown="1">
+      <p>One paper accepted to <strong>CVPR 2025</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2025-01">2025.01</time>
+    <span class="news-icon" aria-hidden="true">🌱</span>
+    <div class="news-copy" markdown="1">
+      <p>My first paper accepted to <strong>ICLR 2025</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2024-09">2024.09</time>
+    <span class="news-icon" aria-hidden="true">🤝</span>
+    <div class="news-copy" markdown="1">
+      <p>Wrapped up a memorable internship at <strong>Siemens</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2024-06">2024.06</time>
+    <span class="news-icon" aria-hidden="true">🎓</span>
+    <div class="news-copy" markdown="1">
+      <p>Graduated from <strong>Xi'an Jiaotong University</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2024-06">2024.06</time>
+    <span class="news-icon" aria-hidden="true">🏅</span>
+    <div class="news-copy" markdown="1">
+      <p>Received the <strong>XJTU Outstanding Graduate Student Award</strong>.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2024-05">2024.05</time>
+    <span class="news-icon" aria-hidden="true">💼</span>
+    <div class="news-copy" markdown="1">
+      <p>Started my internship at <strong>Siemens</strong> in Shanghai.</p>
+    </div>
+  </div>
+  <div class="news-item">
+    <time class="news-date" datetime="2024-02">2024.02</time>
+    <span class="news-icon" aria-hidden="true">🔬</span>
+    <div class="news-copy" markdown="1">
+      <p>Joined the <strong>MIRACLE Lab</strong> as a master's student.</p>
+    </div>
+  </div>
+</div>
+
+</details>
+
+## Publications
+{: #publications }
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/uimate.png' alt="UI-Mate GUI agent overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930) \| [Project Page](https://ui-mate.github.io/) <span style="color:palevioletred;"> 
+[UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930) \| [Project Page](https://ui-mate.github.io/)
 
 Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 
@@ -55,58 +171,10 @@ Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge badge--accepted">NeurIPS 2026</div><img src='images/u_bench.jpg' alt="U-Bench comparison of U-Net variants" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement](https://arxiv.org/abs/2501.13514) \| [![](https://img.shields.io/github/stars/FouierL/Di-Fusion?style=social)](https://github.com/FouierL/Di-Fusion) <span style="color:palevioletred;"> 
-
-**Chenxu Wu**, Qingpeng Kong, Zihang Jiang & S. Kevin Zhou
-
-- We present *Di-Fusion*, an self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/main_pic-1.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965) \| [![](https://img.shields.io/github/stars/FouierL/EquS?style=social)](https://github.com/FouierL/EquS) <span style="color:palevioletred;"> 
-
-**Chenxu Wu**, Qingpeng Kong, Peiang Zhao, Wendi Yang, Wenxin Ma, Fenghe Tang ,Zihang Jiang & S.Kevin Zhou
-
-- We introduce *EquS*, a diffusion model-based image restoration method that imposes equivariant information through dual sampling trajectories.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025wxm.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP](https://arxiv.org/abs/2503.06661) \| [![](https://img.shields.io/github/stars/Mwxinnn/AA-CLIP?style=social)](https://github.com/Mwxinnn/AA-CLIP) <span style="color:palevioletred;"> 
-
-Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Yan, Zihang Jiang & S.Kevin Zhou
-
-- AA-CLIP enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/MIA2025fht.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347) \| [![](https://img.shields.io/github/stars/FengheTan9/Hi-End-MAE?style=social)](https://github.com/FengheTan9/Hi-End-MAE) <span style="color:palevioletred;"> 
-
-Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
-
-- We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
-
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='images/u_bench.jpg' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[U-Bench: A Comprehensive Understanding of U-Net through 100-Variant Benchmarking](https://arxiv.org/abs/2510.07041) \| [![](https://img.shields.io/github/stars/FengheTan9/U-Bench?style=social)](https://github.com/FengheTan9/U-Bench) <span style="color:palevioletred;"> 
+[U-Bench: A Comprehensive Understanding of U-Net through 100-Variant Benchmarking](https://arxiv.org/abs/2510.07041) \| [![](https://img.shields.io/github/stars/FengheTan9/U-Bench?style=social)](https://github.com/FengheTan9/U-Bench)
 
 Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsheng Wang, Yuhao Wang, **Chenxu Wu**, S. Kevin Zhou
 
@@ -115,10 +183,58 @@ Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsh
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/zhangxuACL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="Di-Fusion diffusion MRI denoising framework" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A General Knowledge Injection Framework for ICD Coding](https://arxiv.org/abs/2505.18708) \| [![](https://img.shields.io/github/stars/xuzhang0112/GKI-ICD?style=social)](https://github.com/xuzhang0112/GKI-ICD) <span style="color:palevioletred;"> 
+[Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement](https://arxiv.org/abs/2501.13514) \| [![](https://img.shields.io/github/stars/FouierL/Di-Fusion?style=social)](https://github.com/FouierL/Di-Fusion)
+
+**Chenxu Wu**, Qingpeng Kong, Zihang Jiang & S. Kevin Zhou
+
+- We present *Di-Fusion*, a self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/main_pic-1.png' alt="Equivariant sampling for image restoration" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965) \| [![](https://img.shields.io/github/stars/FouierL/EquS?style=social)](https://github.com/FouierL/EquS)
+
+**Chenxu Wu**, Qingpeng Kong, Peiang Zhao, Wendi Yang, Wenxin Ma, Fenghe Tang ,Zihang Jiang & S.Kevin Zhou
+
+- We introduce *EquS*, a diffusion model-based image restoration method that imposes equivariant information through dual sampling trajectories.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025wxm.png' alt="AA-CLIP anomaly detection framework" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP](https://arxiv.org/abs/2503.06661) \| [![](https://img.shields.io/github/stars/Mwxinnn/AA-CLIP?style=social)](https://github.com/Mwxinnn/AA-CLIP)
+
+Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Yan, Zihang Jiang & S.Kevin Zhou
+
+- AA-CLIP enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/MIA2025fht.png' alt="Hi-End-MAE medical image segmentation framework" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347) \| [![](https://img.shields.io/github/stars/FengheTan9/Hi-End-MAE?style=social)](https://github.com/FengheTan9/Hi-End-MAE)
+
+Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
+
+- We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/zhangxuACL.png' alt="Knowledge injection framework for ICD coding" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A General Knowledge Injection Framework for ICD Coding](https://arxiv.org/abs/2505.18708) \| [![](https://img.shields.io/github/stars/xuzhang0112/GKI-ICD?style=social)](https://github.com/xuzhang0112/GKI-ICD)
 
 Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Kevin Zhou
 
@@ -127,10 +243,10 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Computing Surveys</div><img src='images/mayanbiao2026aireview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Computing Surveys</div><img src='images/mayanbiao2026aireview.png' alt="On-device large language model survey overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.21203/rs.3.rs-7975734/v1) \| [![](https://img.shields.io/github/stars/LumosJiang/Awesome-On-Device-LLMs?style=social)](https://github.com/LumosJiang/Awesome-On-Device-LLMs) <span style="color:palevioletred;"> 
+[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.21203/rs.3.rs-7975734/v1) \| [![](https://img.shields.io/github/stars/LumosJiang/Awesome-On-Device-LLMs?style=social)](https://github.com/LumosJiang/Awesome-On-Device-LLMs)
 
 Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, **Chenxu Wu**, Andi Zhang, Chenyue Zhou, Minxuan Wang, Xinyu Liu, Xiaoshuai Hao, Yinan Wu, Yichen Li, Yuwei Hu, Zhao Cao, Yang Lu, Mengke Li, Yanbiao Ma, Zhiwu Lu, Jungong Han, Yike Guo
 
@@ -139,10 +255,10 @@ Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, *
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='Ma(Survey).jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='Ma(Survey).jpg' alt="Vision-language interactive reasoning survey overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2509.25373) <span style="color:palevioletred;"> 
+[From Perception to Cognition: A Survey of Vision-Language Interactive Reasoning in Multimodal Large Language Models](https://arxiv.org/abs/2509.25373)
 
 Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ...
 
@@ -151,7 +267,8 @@ Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ..
 </div>
 </div>
 
-# 🎖 Honors and Awards
+## Honors & Awards
+{: #honors }
 - *2025.10* National Scholarship.
 - *2024.10* USTC Graduate First-class Scholarship.
 - *2024.06* XJTU Outstanding Graduate Student Award.
@@ -163,20 +280,23 @@ Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ..
 - *2021.09* XJTU First-class Scholarship.
 - *2021.09* XJTU Outstanding Students.
 
-# 📖 Educations
-- *2024.09 - (now)*, M.S, University of Science and Technology of China, Anhui, China. 
+## Education
+{: #education }
+- *2024.09 - (now)*, M.S, University of Science and Technology of China, Anhui, China.
 - *2020.09 - 2024.06*, B.E., Xi'an Jiaotong University, Shannxi, China.
 
-# 💻 Internships
+## Experience
+{: #experience }
 - *2026.01 - now*, Tencent Hunyuan (TEG, Foundation Model Dept.), Shenzhen, China.
 - *2025.10 - 2026.01*, Tencent (WXG, Technical Architecture Dept.), Shenzhen, China.
 - *2025.06 - 2025.10*, miHoYo, Shanghai, China.
 - *2024.05 - 2024.09*, Siemens, Shanghai, China.
 
-# 📮 Other information
-- *mail*📧 wuchenxu@mail.ustc.edu.cn, wuchenxu02@gmail.com
-- *phone*📱 +86-18092338200
-- *wechat*💬 wcx18092338200
-- *QQ*🐧 727004430
+## Contact
+{: #contact }
+- **Email:** wuchenxu@mail.ustc.edu.cn, wuchenxu02@gmail.com
+- **Phone:** +86-18092338200
+- **WeChat:** wcx18092338200
+- **QQ:** 727004430
 
 {% include visitor-map.html %}
