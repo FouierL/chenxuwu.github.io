@@ -37,21 +37,21 @@ My research focuses on **GUI agents** and **multimodal generation**. I'm current
   <div class="news-item">
     <time class="news-date" datetime="2026-10">2026.10</time>
     <span class="news-icon" aria-hidden="true">📄</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p><strong>U-Bench</strong> has been accepted to <strong>NeurIPS 2026</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2026-08">2026.08</time>
     <span class="news-icon" aria-hidden="true">🚀</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p><strong>UI-Mate</strong>, our open-weight GUI Agent report, is out — <strong>77.0%</strong> on OSWorld-Verified.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2026-01">2026.01</time>
     <span class="news-icon" aria-hidden="true">💼</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Joined <strong>Tencent Hunyuan</strong> as a GUI Agent intern (<strong>QingYun Plan</strong>).</p>
     </div>
   </div>
@@ -64,91 +64,91 @@ My research focuses on **GUI agents** and **multimodal generation**. I'm current
   <div class="news-item">
     <time class="news-date" datetime="2025-11">2025.11</time>
     <span class="news-icon" aria-hidden="true">📄</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>One paper accepted to <strong>WACV 2026</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-10">2025.10</time>
     <span class="news-icon" aria-hidden="true">💼</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Wrapped up my miHoYo internship and joined <strong>Tencent WXG</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-10">2025.10</time>
     <span class="news-icon" aria-hidden="true">🏆</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Received the <strong>Graduate National Scholarship</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-06">2025.06</time>
     <span class="news-icon" aria-hidden="true">🎮</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Started my internship at <strong>miHoYo</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-05">2025.05</time>
     <span class="news-icon" aria-hidden="true">🩺</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>One paper accepted to <strong>Medical Image Analysis</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-05">2025.05</time>
     <span class="news-icon" aria-hidden="true">📝</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>One paper accepted to <strong>ACL 2025 Findings</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-03">2025.03</time>
     <span class="news-icon" aria-hidden="true">👁️</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>One paper accepted to <strong>CVPR 2025</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2025-01">2025.01</time>
     <span class="news-icon" aria-hidden="true">🌱</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>My first paper accepted to <strong>ICLR 2025</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2024-09">2024.09</time>
     <span class="news-icon" aria-hidden="true">🤝</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Wrapped up a memorable internship at <strong>Siemens</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2024-06">2024.06</time>
     <span class="news-icon" aria-hidden="true">🎓</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Graduated from <strong>Xi'an Jiaotong University</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2024-06">2024.06</time>
     <span class="news-icon" aria-hidden="true">🏅</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Received the <strong>XJTU Outstanding Graduate Student Award</strong>.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2024-05">2024.05</time>
     <span class="news-icon" aria-hidden="true">💼</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Started my internship at <strong>Siemens</strong> in Shanghai.</p>
     </div>
   </div>
   <div class="news-item">
     <time class="news-date" datetime="2024-02">2024.02</time>
     <span class="news-icon" aria-hidden="true">🔬</span>
-    <div class="news-copy" markdown="1">
+    <div class="news-copy">
       <p>Joined the <strong>MIRACLE Lab</strong> as a master's student.</p>
     </div>
   </div>
