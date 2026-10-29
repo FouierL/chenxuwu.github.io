@@ -136,6 +136,25 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .paper-box .badge--accepted { color: #26685e; background: #e9f5f0; }
 .page__content .visitor-map { margin-top: 44px; margin-bottom: 32px; }
 
+.page__content .experience-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.page__content .experience-item {
+  display: grid;
+  grid-template-columns: 136px minmax(0, 1fr);
+  gap: 22px;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--surface);
+}
+.experience-logo { display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 10px 12px; border-right: 1px solid var(--line); }
+.experience-logo img { display: block; width: 112px; height: 44px; max-width: 100%; object-fit: contain; border-radius: 0; box-shadow: none; }
+.experience-copy { min-width: 0; }
+.experience-copy h3 { margin: 0 0 4px; font-size: 16px; line-height: 1.4; letter-spacing: -.2px; }
+.experience-copy .experience-team { font-size: 12px; color: #536581; margin: 0 0 5px; }
+.experience-copy .experience-meta { display: flex; flex-wrap: wrap; gap: 2px 16px; font-size: 11.5px; color: var(--muted); margin: 0; }
+
 @media (min-width: 925px) {
   #main { display: grid; grid-template-columns: 216px minmax(0, 1fr); gap: 36px; align-items: start; }
   #main::before, #main::after { display: none; }
@@ -178,6 +197,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .paper-box-image > div { align-items: center; }
   .paper-box .paper-box-image img { max-width: 320px; height: 140px; }
   .paper-box-text > p:first-child { font-size: 14px; }
+  .page__content .experience-item { grid-template-columns: 82px minmax(0, 1fr); gap: 14px; padding: 16px 14px; }
+  .experience-logo { padding: 6px 10px 6px 0; }
+  .experience-logo img { width: 72px; height: 36px; }
+  .experience-copy h3 { font-size: 14px; }
+  .experience-copy .experience-team { font-size: 11px; }
+  .experience-copy .experience-meta { display: grid; font-size: 11px; gap: 2px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

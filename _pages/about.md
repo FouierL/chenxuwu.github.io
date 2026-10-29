@@ -287,10 +287,39 @@ Chenyue Zhou, Mingxuan Wang, Yanbiao Ma, **Chenxu Wu**, Wanyi Chen, Zhe Qian, ..
 
 ## Experience
 {: #experience }
-- *2026.01 - now*, Tencent Hunyuan (TEG, Foundation Model Dept.), Shenzhen, China.
-- *2025.10 - 2026.01*, Tencent (WXG, Technical Architecture Dept.), Shenzhen, China.
-- *2025.06 - 2025.10*, miHoYo, Shanghai, China.
-- *2024.05 - 2024.09*, Siemens, Shanghai, China.
+
+<ul class="experience-list" role="list">
+  <li class="experience-item">
+    <div class="experience-logo"><img src="images/companies/hunyuan.png" alt="" width="112" height="44" loading="lazy" decoding="async"></div>
+    <div class="experience-copy">
+      <h3>Tencent Hunyuan</h3>
+      <p class="experience-team">TEG · Foundation Model Dept.</p>
+      <p class="experience-meta"><span>2026.01 – Present</span><span>Shenzhen, China</span></p>
+    </div>
+  </li>
+  <li class="experience-item">
+    <div class="experience-logo"><img src="images/companies/tencent.png" alt="" width="112" height="44" loading="lazy" decoding="async"></div>
+    <div class="experience-copy">
+      <h3>Tencent</h3>
+      <p class="experience-team">WXG · Technical Architecture Dept.</p>
+      <p class="experience-meta"><span>2025.10 – 2026.01</span><span>Shenzhen, China</span></p>
+    </div>
+  </li>
+  <li class="experience-item">
+    <div class="experience-logo"><img src="images/companies/mihoyo.png" alt="" width="112" height="44" loading="lazy" decoding="async"></div>
+    <div class="experience-copy">
+      <h3>miHoYo</h3>
+      <p class="experience-meta"><span>2025.06 – 2025.10</span><span>Shanghai, China</span></p>
+    </div>
+  </li>
+  <li class="experience-item">
+    <div class="experience-logo"><img src="images/companies/siemens.svg" alt="" width="112" height="44" loading="lazy" decoding="async"></div>
+    <div class="experience-copy">
+      <h3>Siemens</h3>
+      <p class="experience-meta"><span>2024.05 – 2024.09</span><span>Shanghai, China</span></p>
+    </div>
+  </li>
+</ul>
 
 ## Contact
 {: #contact }
