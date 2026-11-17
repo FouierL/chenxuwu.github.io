@@ -18,16 +18,13 @@ redirect_from:
 <div class="anchor" id="about-me"></div>
 
 <div class="intro" markdown="1">
-<p class="intro-kicker">RESEARCH · BUILD · EXPLORE</p>
 <h1>Chenxu Wu <span>伍晨旭</span></h1>
 
 I'm a master's student at **USTC's MIRACLE Lab**, advised by [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/).
 
 My research focuses on **GUI agents** and **multimodal generation**. I'm currently a GUI Agent intern at **Tencent Hunyuan** (QingYun Plan / 青云计划), with previous internships at Tencent WXG, miHoYo, and Siemens.
 
-<p class="research-tags"><span>GUI Agents</span><span>Multimodal Generation</span></p>
-
-[Get in touch](mailto:wuchenxu@mail.ustc.edu.cn) to discuss research or collaboration.
+<p class="intro-contact"><a href="mailto:wuchenxu@mail.ustc.edu.cn">wuchenxu@mail.ustc.edu.cn</a></p>
 </div>
 
 ## News
@@ -162,11 +159,13 @@ My research focuses on **GUI agents** and **multimodal generation**. I'm current
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='images/uimate.png' alt="UI-Mate GUI agent overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930) \| [Project Page](https://ui-mate.github.io/)
+[UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930)
 
 Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 
 - An open-weight foundation *GUI Agent* built with an environment-grounded data flywheel and in-context demonstration learning; it reaches **77.0%** on OSWorld-Verified.
+
+<p class="paper-links"><a href="https://ui-mate.github.io/">Project Page</a></p>
 
 </div>
 </div>
@@ -174,11 +173,13 @@ Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge badge--accepted">NeurIPS 2026</div><img src='images/u_bench.jpg' alt="U-Bench comparison of U-Net variants" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[U-Bench: A Comprehensive Understanding of U-Net through 100-Variant Benchmarking](https://arxiv.org/abs/2510.07041) \| [![](https://img.shields.io/github/stars/FengheTan9/U-Bench?style=social)](https://github.com/FengheTan9/U-Bench)
+[U-Bench: A Comprehensive Understanding of U-Net through 100-Variant Benchmarking](https://arxiv.org/abs/2510.07041)
 
 Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsheng Wang, Yuhao Wang, **Chenxu Wu**, S. Kevin Zhou
 
 - We propose *U-Bench*, the first large-scale, statistically rigorous benchmark evaluating 100 U-Net variants across 28 datasets and 10 imaging modalities, with a novel U-Score metric capturing the performance-efficiency trade-off.
+
+<p class="paper-links"><a href="https://github.com/FengheTan9/U-Bench">Code</a></p>
 
 </div>
 </div>
@@ -186,11 +187,13 @@ Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsh
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/iclr25.png' alt="Di-Fusion diffusion MRI denoising framework" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement](https://arxiv.org/abs/2501.13514) \| [![](https://img.shields.io/github/stars/FouierL/Di-Fusion?style=social)](https://github.com/FouierL/Di-Fusion)
+[Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement](https://arxiv.org/abs/2501.13514)
 
 **Chenxu Wu**, Qingpeng Kong, Zihang Jiang & S. Kevin Zhou
 
 - We present *Di-Fusion*, a self-supervised framework that utilizes diffusion models for denoising diffusion MRI.
+
+<p class="paper-links"><a href="https://github.com/FouierL/Di-Fusion">Code</a></p>
 
 </div>
 </div>
@@ -198,11 +201,13 @@ Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsh
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">WACV 2026</div><img src='images/main_pic-1.png' alt="Equivariant sampling for image restoration" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965) \| [![](https://img.shields.io/github/stars/FouierL/EquS?style=social)](https://github.com/FouierL/EquS)
+[Equivariant Sampling for Improving Diffusion Model-based Image Restoration](https://arxiv.org/abs/2511.09965)
 
 **Chenxu Wu**, Qingpeng Kong, Peiang Zhao, Wendi Yang, Wenxin Ma, Fenghe Tang ,Zihang Jiang & S.Kevin Zhou
 
 - We introduce *EquS*, a diffusion model-based image restoration method that imposes equivariant information through dual sampling trajectories.
+
+<p class="paper-links"><a href="https://github.com/FouierL/EquS">Code</a></p>
 
 </div>
 </div>
@@ -210,11 +215,13 @@ Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsh
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='images/CVPR2025wxm.png' alt="AA-CLIP anomaly detection framework" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP](https://arxiv.org/abs/2503.06661) \| [![](https://img.shields.io/github/stars/Mwxinnn/AA-CLIP?style=social)](https://github.com/Mwxinnn/AA-CLIP)
+[AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP](https://arxiv.org/abs/2503.06661)
 
 Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Yan, Zihang Jiang & S.Kevin Zhou
 
 - AA-CLIP enhances CLIP's anomaly discrimination ability in both text and visual spaces while preserving its generalization capability.
+
+<p class="paper-links"><a href="https://github.com/Mwxinnn/AA-CLIP">Code</a></p>
 
 </div>
 </div>
@@ -222,11 +229,13 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/MIA2025fht.png' alt="Hi-End-MAE medical image segmentation framework" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347) \| [![](https://img.shields.io/github/stars/FengheTan9/Hi-End-MAE?style=social)](https://github.com/FengheTan9/Hi-End-MAE)
+[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347)
 
 Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
 
 - We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
+
+<p class="paper-links"><a href="https://github.com/FengheTan9/Hi-End-MAE">Code</a></p>
 
 </div>
 </div>
@@ -234,11 +243,13 @@ Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zho
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2025 Findings</div><img src='images/zhangxuACL.png' alt="Knowledge injection framework for ICD coding" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[A General Knowledge Injection Framework for ICD Coding](https://arxiv.org/abs/2505.18708) \| [![](https://img.shields.io/github/stars/xuzhang0112/GKI-ICD?style=social)](https://github.com/xuzhang0112/GKI-ICD)
+[A General Knowledge Injection Framework for ICD Coding](https://arxiv.org/abs/2505.18708)
 
 Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Kevin Zhou
 
 - We propose a novel, general knowledge injection framework that integrates three key types of knowledge, namely ICD Description, ICD Synonym, and ICD Hierarchy, without specialized design of additional modules.
+
+<p class="paper-links"><a href="https://github.com/xuzhang0112/GKI-ICD">Code</a></p>
 
 </div>
 </div>
@@ -246,11 +257,13 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Computing Surveys</div><img src='images/mayanbiao2026aireview.png' alt="On-device large language model survey overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.21203/rs.3.rs-7975734/v1) \| [![](https://img.shields.io/github/stars/LumosJiang/Awesome-On-Device-LLMs?style=social)](https://github.com/LumosJiang/Awesome-On-Device-LLMs)
+[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.21203/rs.3.rs-7975734/v1)
 
 Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, **Chenxu Wu**, Andi Zhang, Chenyue Zhou, Minxuan Wang, Xinyu Liu, Xiaoshuai Hao, Yinan Wu, Yichen Li, Yuwei Hu, Zhao Cao, Yang Lu, Mengke Li, Yanbiao Ma, Zhiwu Lu, Jungong Han, Yike Guo
 
 - This survey systematically surveys the on-device technology stack from algorithm to system, covering quantization, pruning, knowledge distillation, low-rank adaptation, and hybrid pipelines for deploying LLMs on device and edge.
+
+<p class="paper-links"><a href="https://github.com/LumosJiang/Awesome-On-Device-LLMs">Code</a></p>
 
 </div>
 </div>

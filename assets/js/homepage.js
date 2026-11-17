@@ -1,5 +1,5 @@
 (function () {
-  var nav = document.getElementById("site-nav");
+  var nav = document.getElementById("site-navigation");
   if (!nav) return;
 
   // Keep section navigation on this project page and clear the sticky header.
@@ -14,7 +14,5 @@
     target.scrollIntoView({
       behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"
     });
-    nav.querySelector(".hidden-links").classList.add("hidden");
-    nav.querySelector("button").classList.remove("close");
   }, true);
 }());
