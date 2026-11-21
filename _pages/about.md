@@ -282,7 +282,7 @@ Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, *
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='images/scl-icd-overview.svg' alt="Concept diagram of evidence spans and explainable ICD coding" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><a href="https://arxiv.org/html/2603.15270v3/overview.png" aria-label="View original SCL Figure 2"><img src="https://arxiv.org/html/2603.15270v3/overview.png" alt="Figure 2 from Zhang et al.: the SCL framework for span data construction and staged learning" title="Zhang et al., From Documents to Spans, Figure 2" width="100%" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [From Documents to Spans: Span-Centric Learning for LLM-based Explainable Medical Coding](https://arxiv.org/abs/2603.15270v3)
