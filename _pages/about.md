@@ -226,10 +226,8 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 </div>
 </div>
 
-<div class='paper-box'>
-<div class='paper-box-text' style="max-width: 100%; padding-left: 0;" markdown="1">
-
-<p><span class="badge" style="position: static; display: inline-block; margin: 0;">Medical Image Analysis</span></p>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/gcsmim-overview.svg' alt="Concept diagram of 3D ultrasound and masked patches" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks](https://doi.org/10.1016/j.media.2026.104292)
 
@@ -284,10 +282,8 @@ Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, *
 </div>
 </div>
 
-<div class='paper-box'>
-<div class='paper-box-text' style="max-width: 100%; padding-left: 0;" markdown="1">
-
-<p><span class="badge" style="position: static; display: inline-block; margin: 0;">Submission</span></p>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Submission</div><img src='images/scl-icd-overview.svg' alt="Concept diagram of evidence spans and explainable ICD coding" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box-text' markdown="1">
 
 [From Documents to Spans: Span-Centric Learning for LLM-based Explainable Medical Coding](https://arxiv.org/abs/2603.15270v3)
 
