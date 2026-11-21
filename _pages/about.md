@@ -226,14 +226,30 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 </div>
 </div>
 
+<div class='paper-box'>
+<div class='paper-box-text' style="max-width: 100%; padding-left: 0;" markdown="1">
+
+<p><span class="badge" style="position: static; display: inline-block; margin: 0;">Medical Image Analysis</span></p>
+
+[When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks](https://doi.org/10.1016/j.media.2026.104292)
+
+Rui Zhou, Yingtai Li, Tianzhu Liang, Chang Xiao, **Chenxu Wu**, Teng Wang, Junxiong Yu, Muqing Lin, Shaohua Kevin Zhou
+
+- Combines grouped cyclic shifts and masked image modeling to pre-train models for 3D ultrasound tasks with limited labeled data.
+
+<p class="paper-links"><a href="https://github.com/MohuaChou/GCSMIM">Code</a></p>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/MIA2025fht.png' alt="Hi-End-MAE medical image segmentation framework" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://arxiv.org/abs/2502.08347)
+[Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation](https://doi.org/10.1016/j.media.2025.103770)
 
 Fenghe Tang, Qingsong Yao, Wenxin Ma, **Chenxu Wu**, Zihang Jiang & S. Kevin Zhou
 
-- We pre-train Hi-End-MAE on a large-scale dataset of 10K CT scans and evaluated its performance across seven public medical image segmentation benchmarks.
+- Hi-End-MAE uses encoder-driven reconstruction and hierarchical decoding for medical image segmentation, with pre-training on 10,000 CT scans.
 
 <p class="paper-links"><a href="https://github.com/FengheTan9/Hi-End-MAE">Code</a></p>
 
@@ -264,6 +280,20 @@ Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, *
 - This survey systematically surveys the on-device technology stack from algorithm to system, covering quantization, pruning, knowledge distillation, low-rank adaptation, and hybrid pipelines for deploying LLMs on device and edge.
 
 <p class="paper-links"><a href="https://github.com/LumosJiang/Awesome-On-Device-LLMs">Code</a></p>
+
+</div>
+</div>
+
+<div class='paper-box'>
+<div class='paper-box-text' style="max-width: 100%; padding-left: 0;" markdown="1">
+
+<p><span class="badge" style="position: static; display: inline-block; margin: 0;">Submission</span></p>
+
+[From Documents to Spans: Span-Centric Learning for LLM-based Explainable Medical Coding](https://arxiv.org/abs/2603.15270v3)
+
+Xu Zhang, Wenxin Ma, **Chenxu Wu**, Rongsheng Wang, Zhiyang He, Xiaodong Tao, Kun Zhang, S. Kevin Zhou
+
+- Trains on short evidence spans before adapting to full clinical documents, so the model can return ICD codes alongside supporting text.
 
 </div>
 </div>
