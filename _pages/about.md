@@ -226,7 +226,7 @@ Wenxin Ma, Xu Zhang, Qingsong Yao, Fenghe Tang, **Chenxu Wu**, Yingtai Li, Rui Y
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><img src='images/gcsmim-overview.svg' alt="Concept diagram of 3D ultrasound and masked patches" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Medical Image Analysis</div><a href="https://ars.els-cdn.com/content/image/1-s2.0-S1361841526003610-gr2.jpg" aria-label="View original GCSMIM Figure 2"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1361841526003610-gr2.jpg" alt="Figure 2 from Zhou et al., Medical Image Analysis: the GCSMIM architecture and its grouped cyclic shift, mask-guided feature reformation, and sparse MLP modules" title="Zhou et al., Medical Image Analysis, Figure 2" width="100%" loading="lazy" decoding="async" referrerpolicy="no-referrer"></a></div></div>
 <div class='paper-box-text' markdown="1">
 
 [When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks](https://doi.org/10.1016/j.media.2026.104292)
