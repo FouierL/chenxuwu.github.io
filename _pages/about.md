@@ -254,10 +254,10 @@ Xu Zhang, Kun Zhang, Wenxin Ma, Rongsheng Wang, **Chenxu Wu**, Yingtai Li, S. Ke
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACM Computing Surveys</div><img src='images/mayanbiao2026aireview.png' alt="On-device large language model survey overview" width="100%" loading="lazy" decoding="async"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Artificial Intelligence Review</div><img src='images/mayanbiao2026aireview.png' alt="On-device large language model survey overview" width="100%" loading="lazy" decoding="async"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.21203/rs.3.rs-7975734/v1)
+[On-Device Large Language Models: A Survey of Model Compression and System Optimization](https://doi.org/10.1007/s10462-026-11538-1)
 
 Wanyi Chen, Junhao Wang, Yiwei Zhang, Yufan Shi, Tianyi Jiang, Shengxian Zhou, **Chenxu Wu**, Andi Zhang, Chenyue Zhou, Minxuan Wang, Xinyu Liu, Xiaoshuai Hao, Yinan Wu, Yichen Li, Yuwei Hu, Zhao Cao, Yang Lu, Mengke Li, Yanbiao Ma, Zhiwu Lu, Jungong Han, Yike Guo
 
