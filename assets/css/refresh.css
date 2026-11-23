@@ -45,6 +45,17 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .page__content a:hover img { box-shadow: none; }
 .page__content p { margin: 0 0 1em; }
 .page__content > h2 { display: flex; align-items: baseline; gap: 18px; font-weight: 400; font-size: 25px; line-height: 1.25; margin: 28px 0 12px; padding: 0 0 8px; border-bottom: 1px solid var(--line); scroll-margin-top: 16px; }
+/* The base of each vessel sits on the heading's existing border. */
+.zen-pots {
+  display: block;
+  align-self: flex-end;
+  flex: 1 1 0px;
+  max-width: min(32%, 236px);
+  min-width: 0;
+  height: 60px;
+  margin: -21px 0 -8px auto;
+  pointer-events: none;
+}
 .page__content h1::before, .page__content h2::before { display: none; }
 .page__content #about-me { display: block; height: 0; margin: 0; scroll-margin-top: 16px; }
 .page__content #about-me::before { display: none; }
@@ -69,7 +80,31 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .sidebar .author__urls i { width: 18px; margin-right: 3px; color: #8f8980; font-size: 12px; }
 .sidebar .author__urls_sm { display: none !important; }
 
-.intro { padding: 0; }
+.intro { display: flow-root; padding: 0; }
+.intro-art { display: none; }
+.js .intro-art {
+  display: block;
+  float: right;
+  width: min(32%, 300px);
+  margin: -28px 0 0 20px;
+  shape-outside: polygon(47% 0, 100% 0, 100% 89%, 17% 89%, 0 77%, 0 51%, 27% 20%) border-box;
+  shape-margin: 14px;
+  pointer-events: none;
+}
+.hawthorn-art { display: block; width: 100%; height: auto; aspect-ratio: 420 / 290; }
+
+/* Let the ink appear from the cut end of the bough toward its tips. */
+@media (prefers-reduced-motion: no-preference) {
+  .hawthorn-art.is-drawn { animation: hawthorn-unfold 1.6s ease-out; }
+  @keyframes hawthorn-unfold {
+    from, to {
+      mask-image: linear-gradient(230deg, #000 43%, transparent 56%);
+      mask-size: 250% 250%;
+    }
+    from { mask-position: left bottom; }
+    to { mask-position: right top; }
+  }
+}
 .intro h1 { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 20px; font-size: clamp(36px, 3.7vw, 44px); line-height: 1.1; font-weight: 400; margin: -4px 0 16px; padding: 0; border: 0; }
 .intro h1 span { font-size: 21px; line-height: 1.4; color: var(--muted); font-weight: 400; white-space: nowrap; letter-spacing: 2px; }
 .intro p { font-size: 17px; line-height: 1.5; margin-bottom: 12px; }
@@ -125,6 +160,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .sidebar .author__avatar { width: 124px; }
   .sidebar .author__avatar > img { width: 124px; height: 124px; }
   .intro h1 span { font-size: 21px; }
+  .js .intro-art { margin-top: -24px; margin-left: 14px; }
   .paper-box { grid-template-columns: 138px minmax(0, 1fr); gap: 22px; }
   .paper-box .paper-box-image img { height: 98px; }
   .paper-box-text > p:first-child { font-size: 18px; }
@@ -151,10 +187,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .sidebar .author__urls i { display: none; }
   .page__content #about-me { scroll-margin-top: 104px; }
   .intro h1 { font-size: 35px; margin: 0 0 14px; gap: 6px 12px; }
+  .js .intro-art { width: clamp(84px, 29%, 142px); margin: -8px -18px 0 8px; shape-outside: none; }
+  .intro h1 + p { clear: both; }
   .intro h1 span { font-size: 18px; letter-spacing: 1px; }
   .intro p { font-size: 16px; line-height: 1.5; }
   .intro .intro-contact { font-size: 14px; }
-  .page__content > h2 { margin-top: 26px; font-size: 24px; }
+  .page__content > h2 { margin-top: 26px; gap: 12px; font-size: 24px; }
+  .zen-pots { max-width: min(35%, 156px); height: 40px; margin-top: -4px; }
   .news-item { grid-template-columns: 58px 18px minmax(0, 1fr); gap: 8px; }
   .news-date { font-size: 13px; }
   .news-copy p { font-size: 15px; }
@@ -172,4 +211,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
+}
+
+@media print {
+  .js .intro-art, .zen-pots { display: none; }
 }

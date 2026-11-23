@@ -18,6 +18,9 @@ redirect_from:
 <div class="anchor" id="about-me"></div>
 
 <div class="intro" markdown="1">
+<div class="intro-art">
+  <canvas class="hawthorn-art" width="420" height="290" aria-hidden="true"></canvas>
+</div>
 <h1>Chenxu Wu <span>伍晨旭</span></h1>
 
 I'm a master's student at **USTC's MIRACLE Lab**, advised by [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/).

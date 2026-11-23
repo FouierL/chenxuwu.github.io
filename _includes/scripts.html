@@ -1,5 +1,9 @@
 <script src="assets/js/main.min.js"></script>
 <script src="assets/js/homepage.js?v=20261117"></script>
+{% if page.url == '/' %}
+<script defer src="{{ '/assets/js/hawthorn.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/zen-pots.js' | relative_url }}"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
