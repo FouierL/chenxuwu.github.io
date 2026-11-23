@@ -16,6 +16,30 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
+/* Two transparent crops from the same p5.brush study, anchored to the paper's edges. */
+.mountain-background { isolation: isolate; }
+.mountain-background::before, .mountain-background::after {
+  content: "";
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+  aspect-ratio: 512 / 416;
+  pointer-events: none;
+  background: no-repeat center / contain;
+}
+.mountain-background::before {
+  left: 0;
+  width: clamp(245px, calc(50vw - 300px), 560px);
+  background-image: url("../../images/mountain-pines.webp");
+  opacity: .65;
+}
+.mountain-background::after {
+  right: 0;
+  width: clamp(170px, calc(50vw - 435px), 470px);
+  background-image: url("../../images/mountain-shore.webp");
+  opacity: .65;
+}
 h1, h2, h3, h4, h5, h6, button, input, select, textarea,
 .masthead__inner-wrap, .sidebar p, .sidebar li, .sidebar .author__name,
 .author__urls-wrapper { font-family: var(--reading-font); }
@@ -152,6 +176,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .page__content .visitor-map { margin-top: 32px; margin-bottom: 16px; overflow: hidden; }
 
 @media (max-width: 924.98px) {
+  .mountain-background::before { opacity: .26; }
+  .mountain-background::after { opacity: .36; }
   #main { grid-template-columns: 140px minmax(0, 1fr); gap: 24px; margin-top: 24px; padding: 0 24px; }
   .masthead__inner-wrap { padding: 0 24px; }
   .site-navigation { gap: 20px; }
@@ -167,6 +193,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 }
 
 @media (max-width: 680px) {
+  .mountain-background::before { content: none; }
+  .mountain-background::after { width: 158px; opacity: .32; }
   html { scroll-padding-top: 92px; }
   body { font-size: 16px; }
   .masthead__inner-wrap { padding: 0 18px; }
@@ -215,4 +243,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 @media print {
   .js .intro-art, .zen-pots { display: none; }
+}
+@media print, (forced-colors: active) {
+  .mountain-background::before, .mountain-background::after { content: none; }
 }
