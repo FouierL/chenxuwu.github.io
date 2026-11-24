@@ -1,19 +1,36 @@
 <script>
     $(document).ready(function () {
+        var path = 'google-scholar-stats/gs_data.json';
+        var rawUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/' + path;
         {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
+        var primaryUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@' + path;
         {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
+        var primaryUrl = rawUrl;
         {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            var totalCitation = data['citedby']
-            document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
+
+        function renderCitations(data) {
+            var total = document.getElementById('total_cit');
+            if (total && typeof data.citedby === 'number') {
+                total.textContent = data.citedby;
+                if (data.updated) total.title = 'Updated: ' + data.updated;
+            }
+            var publications = data.publications || {};
+            document.querySelectorAll('.show_paper_citations').forEach(function (element) {
+                var paper = publications[element.getAttribute('data')];
+                if (paper && typeof paper.num_citations === 'number') {
+                    element.textContent = '| Citations: ' + paper.num_citations;
+                }
             });
-        });
-    })
+        }
+
+        function load(url, fallback) {
+            $.ajax({url: url, dataType: 'json', timeout: 10000})
+                .done(renderCitations)
+                .fail(function () {
+                    if (fallback) load(rawUrl, false);
+                    // Retain the Scholar link and unknown count if both sources fail.
+                });
+        }
+        load(primaryUrl, primaryUrl !== rawUrl);
+    });
 </script>

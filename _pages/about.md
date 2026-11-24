@@ -8,13 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <div class="anchor" id="about-me"></div>
 
 <div class="intro" markdown="1">
@@ -26,6 +19,8 @@ redirect_from:
 I'm a master's student at **USTC's MIRACLE Lab**, advised by [Prof. S. Kevin Zhou](https://scholar.google.com/citations?user=8eNm2GMAAAAJ&hl) and [Dr. Zihang Jiang](https://zihangjiang.github.io/).
 
 My research focuses on **GUI agents** and **multimodal generation**. I'm currently a GUI Agent intern at **Tencent Hunyuan** (QingYun Plan / 青云计划), with previous internships at Tencent WXG, miHoYo, and Siemens.
+
+<p><a href="{{ site.author.googlescholar }}">Google Scholar</a> · Citations: <span id="total_cit">—</span></p>
 
 <p class="intro-contact"><a href="mailto:wuchenxu@mail.ustc.edu.cn">wuchenxu@mail.ustc.edu.cn</a></p>
 </div>
@@ -178,7 +173,7 @@ Tencent HY Frontier Team &nbsp;·&nbsp; **Chenxu Wu** (Core Contributor)
 
 [U-Bench: A Comprehensive Understanding of U-Net through 100-Variant Benchmarking](https://arxiv.org/abs/2510.07041)
 
-Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsheng Wang, Yuhao Wang, **Chenxu Wu**, S. Kevin Zhou
+Fenghe Tang, Chengqi Dong, Wenxin Ma, Zikang Xu, Heqin Zhu, Zihang Jiang, Rongsheng Wang, Yuhao Wang, **Chenxu Wu**, Yingtai Li, Shaohua Kevin Zhou
 
 - We propose *U-Bench*, the first large-scale, statistically rigorous benchmark evaluating 100 U-Net variants across 28 datasets and 10 imaging modalities, with a novel U-Score metric capturing the performance-efficiency trade-off.
 
