@@ -2,14 +2,6 @@ name: Get Citation Data
 
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - '.github/workflows/google_scholar_crawler.yaml'
-      - 'google_scholar_crawler/**'
-      - '_data/google_scholar.json'
-  schedule:
-    - cron: '0 8 * * *'
 
 permissions:
   contents: write

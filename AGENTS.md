@@ -22,7 +22,7 @@ This repo is a single **Jekyll static site** — an academic personal homepage (
 - `bundle exec jekyll build` outputs the static site to `_site/` (gitignored). The `GitHub Metadata: No GitHub API authentication` warning during build is expected locally and harmless.
 
 ### Lint / test
-- There is **no** lint or test suite in this repo (no RuboCop/RSpec/ESLint, no CI test job). The only GitHub Action is the optional Scholar crawler. Building the site cleanly is the effective correctness check.
+- There is **no** lint or test suite in this repo (no RuboCop/RSpec/ESLint, no CI test job). Building the site cleanly is the effective correctness check. GitHub Actions refreshes publication star counts daily.
 
 ### Optional: Google Scholar crawler
 - `cd google_scholar_crawler && pip3 install -r requirements.txt && GOOGLE_SCHOLAR_ID=<id> python3 main.py`. Not required for local site development.

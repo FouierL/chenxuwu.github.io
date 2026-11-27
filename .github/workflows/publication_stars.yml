@@ -1,0 +1,49 @@
+name: Update publication stars
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 8 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '_data/publication_links.json'
+      - '.github/scripts/update_publication_stars.py'
+      - '.github/workflows/publication_stars.yml'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publication-stars
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Read public GitHub star counts
+        run: python3 .github/scripts/update_publication_stars.py
+      - name: Publish star counts
+        run: |
+          if ! git diff --quiet -- _data/github_stars.json; then
+            git add _data/github_stars.json
+            git -c user.name='github-actions[bot]' \
+                -c user.email='41898282+github-actions[bot]@users.noreply.github.com' \
+                commit -m 'Update publication repository stars'
+            git push origin HEAD:main
+          fi
+
+          # A push made with GITHUB_TOKEN does not trigger a branch-based Pages build.
+          latest=$(gh api "repos/$GITHUB_REPOSITORY/pages/builds/latest" \
+            --jq 'select(.status == "built" or .status == "building" or .status == "queued") | .commit')
+          if [[ "$latest" != "$(git rev-parse HEAD)" ]]; then
+            gh api --method POST "repos/$GITHUB_REPOSITORY/pages/builds" --silent
+          fi

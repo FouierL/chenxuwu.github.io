@@ -1,0 +1,47 @@
+{
+  "ui_mate": {
+    "paper": "https://arxiv.org/abs/2608.15930",
+    "project": "https://ui-mate.github.io/",
+    "repo": "Tencent/UI-Mate"
+  },
+  "u_bench": {
+    "paper": "https://arxiv.org/abs/2510.07041",
+    "project": "https://fenghetan9.github.io/ubench/",
+    "repo": "FengheTan9/U-Bench"
+  },
+  "di_fusion": {
+    "paper": "https://arxiv.org/abs/2501.13514",
+    "repo": "FouierL/Di-Fusion"
+  },
+  "equs": {
+    "paper": "https://arxiv.org/abs/2511.09965",
+    "repo": "FouierL/EquS"
+  },
+  "aa_clip": {
+    "paper": "https://arxiv.org/abs/2503.06661",
+    "repo": "Mwxinnn/AA-CLIP"
+  },
+  "gcsmim": {
+    "paper": "https://doi.org/10.1016/j.media.2026.104292",
+    "repo": "MohuaChou/GCSMIM"
+  },
+  "hi_end_mae": {
+    "paper": "https://doi.org/10.1016/j.media.2025.103770",
+    "repo": "FengheTan9/Hi-End-MAE"
+  },
+  "gki_icd": {
+    "paper": "https://arxiv.org/abs/2505.18708",
+    "repo": "xuzhang0112/GKI-ICD"
+  },
+  "on_device_llms": {
+    "paper": "https://doi.org/10.1007/s10462-026-11538-1",
+    "project": "https://lumosjiang.github.io/Awesome-On-Device-LLMs/",
+    "repo": "LumosJiang/Awesome-On-Device-LLMs"
+  },
+  "documents_to_spans": {
+    "paper": "https://arxiv.org/abs/2603.15270v3"
+  },
+  "perception_to_cognition": {
+    "paper": "https://arxiv.org/abs/2509.25373"
+  }
+}

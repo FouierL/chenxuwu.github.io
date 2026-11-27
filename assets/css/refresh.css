@@ -159,8 +159,12 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .paper-box-text strong { color: var(--ink); font-weight: 700; }
 .paper-box-text ul { padding: 0; margin: 6px 0 0; list-style: none; }
 .paper-box-text li { font-size: 15px; line-height: 1.5; color: #514d46; margin: 0; }
-.paper-box-text .paper-links { margin: 6px 0 0; font-size: 14px; }
-.paper-links a + a { margin-left: 16px; }
+.paper-box-text .paper-links { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 9px; margin: 10px 0 0; font-size: 14px; }
+.paper-links a { display: inline-flex; align-items: center; gap: 5px; min-height: 29px; padding: 2px 9px; border: 1px solid var(--line); border-radius: 5px; color: var(--ink); background: var(--paper); font-weight: 600; line-height: 1.4; text-decoration: none; white-space: nowrap; }
+.paper-links a:hover, .paper-links a:focus-visible { border-color: var(--accent); color: var(--accent); }
+.paper-links .fa-github { font-size: 15px; }
+.repo-stars { display: inline-flex; align-items: center; gap: 3px; padding-left: 7px; margin-left: 2px; border-left: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+.repo-stars [aria-hidden] { color: #89621f; font-size: 13px; }
 .paper-box .badge { position: static; align-self: flex-start; margin: 0; padding: 0; border-radius: 0; font-size: 13px; line-height: 1.4; font-weight: 700; color: var(--accent); background: none; }
 
 .page__content .experience-list { list-style: none; padding: 0; margin: 0; }
