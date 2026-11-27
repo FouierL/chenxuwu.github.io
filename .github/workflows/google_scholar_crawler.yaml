@@ -7,6 +7,7 @@ on:
     paths:
       - '.github/workflows/google_scholar_crawler.yaml'
       - 'google_scholar_crawler/**'
+      - '_data/google_scholar.json'
   schedule:
     - cron: '0 8 * * *'
 
@@ -32,8 +33,6 @@ jobs:
         run: python -m pip install -r google_scholar_crawler/requirements.txt
       - name: Fetch citation data
         working-directory: google_scholar_crawler
-        env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID || vars.GOOGLE_SCHOLAR_ID || 'tI39ThgAAAAJ' }}
         run: python main.py
       - name: Publish citation data
         run: bash google_scholar_crawler/publish.sh

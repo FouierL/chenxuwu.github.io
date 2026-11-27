@@ -1,11 +1,18 @@
-from scholarly import scholarly
 import json
-from datetime import datetime, timezone
+import logging
 import os
+from datetime import datetime, timezone
+from pathlib import Path
 
-author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
+from scholarly import scholarly
+
+snapshot_file = Path(__file__).resolve().parents[1] / '_data' / 'google_scholar.json'
+scholar_id = os.environ.get('GOOGLE_SCHOLAR_ID') or json.loads(snapshot_file.read_text())['scholar_id']
+logging.basicConfig(level=logging.INFO)
+logging.info('Fetching public Scholar profile %s', scholar_id)
+author: dict = scholarly.search_author_id(scholar_id)
 scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
-if author.get('scholar_id') != os.environ['GOOGLE_SCHOLAR_ID']:
+if author.get('scholar_id') != scholar_id:
     raise ValueError('Scholar returned a different author')
 if not isinstance(author.get('citedby'), int) or author['citedby'] < 0:
     raise ValueError('Scholar returned an invalid citation count')
