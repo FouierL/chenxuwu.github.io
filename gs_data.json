@@ -1,0 +1,127 @@
+{
+  "scholar_id": "tI39ThgAAAAJ",
+  "name": "Chenxu Wu",
+  "affiliation": "Tencent Hunyuan",
+  "homepage": "https://fouierl.github.io/chenxuwu.github.io/",
+  "citedby": 392,
+  "citedby5y": 392,
+  "hindex": 7,
+  "hindex5y": 7,
+  "i10index": 7,
+  "i10index5y": 7,
+  "updated": "2026-11-27",
+  "publications": {
+    "tI39ThgAAAAJ:9yKSN-GCB0IC": {
+      "author_pub_id": "tI39ThgAAAAJ:9yKSN-GCB0IC",
+      "bib": {
+        "title": "AA-CLIP: Enhancing Zero-shot Anomaly Detection via Anomaly-Aware CLIP",
+        "pub_year": "2025"
+      },
+      "num_citations": 268
+    },
+    "tI39ThgAAAAJ:UeHWp8X0CEIC": {
+      "author_pub_id": "tI39ThgAAAAJ:UeHWp8X0CEIC",
+      "bib": {
+        "title": "From perception to cognition: A survey of vision-language interactive reasoning in multimodal large language models",
+        "pub_year": "2025"
+      },
+      "num_citations": 32
+    },
+    "tI39ThgAAAAJ:d1gkVwhDpl0C": {
+      "author_pub_id": "tI39ThgAAAAJ:d1gkVwhDpl0C",
+      "bib": {
+        "title": "Hi-End-MAE: Hierarchical encoder-driven masked autoencoders are stronger vision learners for medical image segmentation",
+        "pub_year": "2025"
+      },
+      "num_citations": 26
+    },
+    "tI39ThgAAAAJ:zYLM7Y9cAGgC": {
+      "author_pub_id": "tI39ThgAAAAJ:zYLM7Y9cAGgC",
+      "bib": {
+        "title": "U-bench: A comprehensive understanding of u-net through 100-variant benchmarking",
+        "pub_year": "2025"
+      },
+      "num_citations": 17
+    },
+    "tI39ThgAAAAJ:u5HHmVD_uO8C": {
+      "author_pub_id": "tI39ThgAAAAJ:u5HHmVD_uO8C",
+      "bib": {
+        "title": "Self-Supervised Diffusion MRI Denoising via Iterative and Stable Refinement",
+        "pub_year": "2025"
+      },
+      "num_citations": 17
+    },
+    "tI39ThgAAAAJ:Y0pCki6q_DkC": {
+      "author_pub_id": "tI39ThgAAAAJ:Y0pCki6q_DkC",
+      "bib": {
+        "title": "On-device large language models: A survey of model compression and system optimization",
+        "pub_year": "2026"
+      },
+      "num_citations": 16
+    },
+    "tI39ThgAAAAJ:2osOgNQ5qMEC": {
+      "author_pub_id": "tI39ThgAAAAJ:2osOgNQ5qMEC",
+      "bib": {
+        "title": "A General Knowledge Injection Framework for ICD Coding",
+        "pub_year": "2025"
+      },
+      "num_citations": 10
+    },
+    "tI39ThgAAAAJ:NaGl4SEjCO4C": {
+      "author_pub_id": "tI39ThgAAAAJ:NaGl4SEjCO4C",
+      "bib": {
+        "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
+        "pub_year": "2026"
+      },
+      "num_citations": 4
+    },
+    "tI39ThgAAAAJ:Tyk-4Ss8FVUC": {
+      "author_pub_id": "tI39ThgAAAAJ:Tyk-4Ss8FVUC",
+      "bib": {
+        "title": "Equivariant Sampling for Improving Diffusion Model-based Image Restoration",
+        "pub_year": "2025"
+      },
+      "num_citations": 2
+    },
+    "tI39ThgAAAAJ:ZHo1McVdvXMC": {
+      "author_pub_id": "tI39ThgAAAAJ:ZHo1McVdvXMC",
+      "bib": {
+        "title": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+        "pub_year": "2026"
+      },
+      "num_citations": 0
+    },
+    "tI39ThgAAAAJ:SeFeTyx0c_EC": {
+      "author_pub_id": "tI39ThgAAAAJ:SeFeTyx0c_EC",
+      "bib": {
+        "title": "From a Prompt to Repertoires: Evolving Functional REpertoires Enable LLM Continual Learning",
+        "pub_year": "2026"
+      },
+      "num_citations": 0
+    },
+    "tI39ThgAAAAJ:RYcK_YlVTxYC": {
+      "author_pub_id": "tI39ThgAAAAJ:RYcK_YlVTxYC",
+      "bib": {
+        "title": "When Grouped Cyclic Shift meets masked image modeling: Effective pre-training for data-scarce 3D ultrasound analysis tasks",
+        "pub_year": "2026"
+      },
+      "num_citations": 0
+    },
+    "tI39ThgAAAAJ:RGFaLdJalmkC": {
+      "author_pub_id": "tI39ThgAAAAJ:RGFaLdJalmkC",
+      "bib": {
+        "title": "From Documents to Spans: Scalable Supervision for Evidence-Based ICD Coding with LLMs",
+        "pub_year": "2026"
+      },
+      "num_citations": 0
+    },
+    "tI39ThgAAAAJ:MXK_kJrjxJIC": {
+      "author_pub_id": "tI39ThgAAAAJ:MXK_kJrjxJIC",
+      "bib": {
+        "title": "From Documents to Spans: Code-Centric Learning for LLM-based ICD Coding",
+        "pub_year": "2026"
+      },
+      "num_citations": 0
+    }
+  }
+}
