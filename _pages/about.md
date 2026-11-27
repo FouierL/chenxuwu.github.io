@@ -20,7 +20,8 @@ I'm a master's student at **USTC's MIRACLE Lab**, advised by [Prof. S. Kevin Zho
 
 My research focuses on **GUI agents** and **multimodal generation**. I'm currently a GUI Agent intern at **Tencent Hunyuan** (QingYun Plan / 青云计划), with previous internships at Tencent WXG, miHoYo, and Siemens.
 
-<p><a href="{{ site.author.googlescholar }}">Google Scholar</a> · Citations: <span id="total_cit">—</span></p>
+{% assign scholar = site.data.google_scholar %}
+<p><a href="{{ site.author.googlescholar }}">Google Scholar</a> · Citations: <span id="total_cit" title="Google Scholar · {{ scholar.updated }}">{{ scholar.citedby }}</span></p>
 
 <p class="intro-contact"><a href="mailto:wuchenxu@mail.ustc.edu.cn">wuchenxu@mail.ustc.edu.cn</a></p>
 </div>
