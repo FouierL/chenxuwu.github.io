@@ -26,7 +26,7 @@ AcadHomepage
 - [作者的个人主页](https://rayeren.github.io/)
 
 ## 主要特点
-- **自动更新谷歌学术引用**: 借助谷歌学术爬虫和github action功能，本仓库可以自动更新作者的引用数和论文引用数。
+- 论文条目提供论文、项目主页和 GitHub 仓库链接，仓库旁的 star 数每天更新。
 - **支持谷歌Analytics**: 你可以通过简单的配置来实现使用谷歌Analytics跟踪网页的流量。
 - **响应式的**: 此主页会针对不同的屏幕尺寸自动调整布局。
 - **美观而简约**: 此主页美观而简约，适合个人学术主页的搭建。
@@ -35,10 +35,6 @@ AcadHomepage
 ## 快速开始
 
 1. Fork本仓库到`USERNAME/USERNAME.github.io`，其中`USERNAME`是你的github用户名。
-1. 配置谷歌学术引用爬虫：
-    1. 在你的谷歌学术引用页面的url里找到你的谷歌学术ID：例如，在url https://scholar.google.com/citations?user=SCHOLAR_ID 中，`SCHOLAR_ID`部分即为你的谷歌学术ID。
-    1. 在 `_data/google_scholar.json` 中填写公开的 `scholar_id`、已核实的总引用数 `citedby` 和核实日期。主页会在加载最新统计时显示这个数字。
-    1. 在 **Actions → Get Citation Data** 中启用工作流并运行一次。工作流会把 `gs_data.json` 发布到 `google-scholar-stats` 分支，之后每天北京时间 16:00 定时运行。
 1. 使用 [favicon-generator](https://redketchup.io/favicon-generator)生成favicon（网页icon文件），并下载所有文件到`REPO/images`。
 1. 修改主页配置文件[_config.yml](../_config.yml):
     1. `title`: 主页标题
@@ -47,9 +43,9 @@ AcadHomepage
     1. `google_analytics_id` (可选的): 谷歌Analytics ID
     1. SEO相关的键值 (可选的): 从搜索引擎的控制台里获得对应的ID (例如：Google, Bing and Baidu)，然后粘贴到这里。
     1. `author`: 主页作者信息，包括其他网页、Email、所在城市、大学等。
-    1. `google_scholar_stats_use_cdn`: 使用CDN读取存储于`https://raw.githubusercontent.com/`的google scholar引用统计数据，防止中国大陆地区被墙无法访问的情况。但是CDN有缓存，因此`google_scholar_stats_use_cdn : True`时，引用数据更新会有延迟。
     1. 更多的配置信息在注释中有详细描述。
 1. 将你的主页内容添加到 [_pages/about.md](../_pages/about.md).
+    1. 在 `_data/publication_links.json` 中填写 `paper` 链接，有独立项目主页或仓库时再填写 `project`、`repo`（`owner/name`）。**Update publication stars** 工作流会更新页面使用的 star 数。
 1. 你的主页将会被部署到`https://USERNAME.github.io`.
 
 ## 本地调试

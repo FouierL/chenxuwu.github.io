@@ -1,0 +1,14 @@
+{% assign links = include.links %}
+<p class="paper-links">
+  <a href="{{ links.paper | escape }}"><span aria-hidden="true">📄</span> Paper</a>
+  {% if links.project %}
+  <a href="{{ links.project | escape }}"><span aria-hidden="true">🌐</span> Project Page</a>
+  {% endif %}
+  {% if links.repo %}
+  {% assign stars = site.data.github_stars[links.repo] %}
+  <a href="https://github.com/{{ links.repo | escape }}" title="{{ links.repo | escape }}">
+    <i class="fab fa-github" aria-hidden="true"></i> GitHub
+    {% if stars %}<span class="repo-stars"><span aria-hidden="true">★</span> {{ stars }}<span class="visually-hidden"> stars</span></span>{% endif %}
+  </a>
+  {% endif %}
+</p>
